@@ -8,8 +8,6 @@
 #=====importing libraries===========
 import os
 from datetime import datetime, date
-import csv
-
 
 DATETIME_STRING_FORMAT = "%Y-%m-%d"
 # Create current date object, give correct time formatting
@@ -346,7 +344,7 @@ def generate_reports():
 
     # Compile gathered data into out file
     with open("user_overview.txt", "w", newline="") as user_overview_out:
-        #Write total tasks in programma
+        #Write total tasks in programm
         user_overview_out.write(f"User Count: {user_count}\n")
         user_overview_out.write(f"Total Task Count: {task_count}\n")
         user_overview_out.write("\n")
@@ -361,7 +359,6 @@ def generate_reports():
             user_overview_out.write(f"\n") # New space for next user
     print("USER OVERVIEW HAS BEEN WRITTEN TO DISC")
     
-
 
 """
 Reads the task from task.txt file and prints to the console in the 
