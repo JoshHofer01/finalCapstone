@@ -11,8 +11,12 @@ This command line application was created as a final project for my Software Eng
 It implements a functional task management system in Python. File I/O operations for data persistence actively update csv files created by the app to ensure a streamline experience for the user. The programm uses error handling and message validation to add robustness to the programm. This app is designed with UX in mind.
 
 ### Installation:
-
-+ All libraries used are built-in python libraries, no *requirements.txt* or installation of external libraries is needed.
+1. Create a local folder named "Task Manager CLI".
+2. Open terminal/command prompt and *cd* to your newly created folder.
+3. Change directory to "Task Manager CLI" folder in git bash & initialize folder using *git init*.
+4. Still using git bash, type "*git clone https://github.com/JoshHofer01/finalCapstone.git*"
+5. Open folder in VSCode using "*code .*", or in your IDE of choice.
+    + All libraries used are built-in python libraries, no *requirements.txt* or installation of external libraries is needed.
 
 ### Usage:
 After cloning the repository, executing *'task_manager.py'* creates *'user.txt'* & *task.txt* files with the existing login information as **admin/password**. Using these credentials, users can login to the admin panel of the programm and create an additional account.
