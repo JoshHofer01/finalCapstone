@@ -1,9 +1,9 @@
 # Task Manager
 
 ### **Contents**
-    Description
-    Installation
-    Usage
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
 
 ### Description:
 This command line application was created as a final project for my Software Engineering bootcamp with <a title="View Josh's Bootcamp Portfolio" href="https://www.hyperiondev.com/portfolio/JO23090009573/">Hyperion Dev</a>. The programm is a culmination of a majority of the skills taught to us since November 25th 2023, such as File I/O, error handling, and function modulation.
